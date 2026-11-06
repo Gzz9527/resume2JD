@@ -1,0 +1,39 @@
+# OS and editor files
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+*.local
+
+# Private career masters and job descriptions at repository root
+/个人详历.md
+/个人详历.draft.md
+/career-master.md
+/career-master.draft.md
+/JD.md
+/JD原文.md
+/job-description.md
+
+# Private inputs and generated resumes
+/inputs/
+/outputs/
+
+# Local agent memory and temporary files
+.workbuddy/memory/
+.tmp/
+tmp/
+
+# Optional local tooling
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc

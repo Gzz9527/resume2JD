@@ -1,0 +1,22 @@
+resume2JD
+Copyright (c) 2026 resume2JD contributors
+
+The original Skill instructions, documentation, examples, and templates in this
+repository are distributed under the MIT License in LICENSE.
+
+Visual template provenance:
+templates/visual-template.html is a sanitized implementation based on a
+personally designed resume webpage. It extracts general visual characteristics
+from that personal design and removes personal and identifying content. No
+third-party logos, images, personal information, or media files are intentionally
+bundled.
+
+Fonts and offline behavior:
+The HTML templates reference locally installed font families and system font
+fallbacks only. No font files, external font stylesheets, or scripts are bundled
+or requested by the template, so generated resumes can be read and printed offline.
+
+All people, companies, projects, metrics, contact details, and job postings in
+examples/ are fictional and provided only for demonstration. Any resemblance to
+real persons or organizations is coincidental. Never replace them with real
+personal data in a public commit.
