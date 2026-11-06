@@ -32,10 +32,10 @@ AI 浪潮下，岗位边界正在变化，岗位定义越来越模糊，新岗�
 ### 1. 获取并打开项目
 
 - 不熟悉 Git：在 GitHub 页面选择 **Code → Download ZIP**，解压后用 Agent 打开 `resume2JD` 文件夹。
-- 熟悉 Git：将 `OWNER` 换成实际账号后执行：
+- 熟悉 Git：执行以下命令：
 
 ```bash
-git clone https://github.com/OWNER/resume2JD.git
+git clone https://github.com/Gzz9527/resume2JD.git
 ```
 
 支持 Skill 安装的 Agent 也可按其产品文档注册本目录；支持工作区的 Agent 直接打开文件夹即可。

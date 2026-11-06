@@ -32,10 +32,10 @@ This is not a standalone application or hosted service. An Agent must read and f
 ### 1. Get and open the project
 
 - Without Git: choose **Code → Download ZIP** on GitHub, extract it, and open the `resume2JD` folder in an Agent.
-- With Git: replace `OWNER` with the actual account or organization:
+- With Git: run:
 
 ```bash
-git clone https://github.com/OWNER/resume2JD.git
+git clone https://github.com/Gzz9527/resume2JD.git
 ```
 
 Skill-aware Agents may register this directory according to their product documentation. Workspace-based Agents can open the folder directly.
