@@ -4,13 +4,13 @@
 
 **Provide a job description and automatically get a matching, tailored resume.**
 
-resume2JD is an AI Skill for job applications. Organize your experience into a career master—yes, the opposite of a condensed resume—then send an Agent a job description (JD) as a screenshot or text. It produces a tailored resume (HTML/PDF), fit analysis, and interview questions for that role, reducing repetitive resume editing. Every statement comes from real experience; nothing is invented.
+resume2JD is an AI Skill for job applications. Organize your experience into a career master—yes, the opposite of a condensed resume—then send an Agent a job description (JD) as a screenshot or text. It produces a tailored resume (HTML/PDF), fit analysis, role-specific interview simulations, and targeted candidate questions for that role, reducing repetitive resume editing. Every statement comes from real experience; nothing is invented.
 
 ## What you get
 
 - **Tailored resume:** Markdown and a standalone HTML file; save as PDF through a browser, or use PDFKit automatically when the environment already supports it.
 - **Fit analysis:** key requirements, supporting evidence, strengths, gaps, and an estimated screening-invitation range.
-- **Interview review:** likely questions, assessment criteria, answer strategies, evidence-grounded sample answers, and source references.
+- **Interview simulation and candidate questions:** infer 1–3 interviewer roles and provide 8–12 role-specific questions, pressure follow-ups, an approximately 60-second self-introduction, an interview risk radar, and role-specific questions to ask. Answers retain links to real career evidence.
 - **Traceability:** key resume claims link back to stable career-master IDs without inventing skills, responsibilities, metrics, or outcomes.
 
 > The invitation range is an uncalibrated judgment based only on the resume and JD. It is not a measured pass rate or an employment guarantee.
@@ -109,7 +109,8 @@ Each run creates `outputs/<version>/` containing:
 - `<name>-<target-role>-<target-company>.md`: editable resume and ATS-friendly source text.
 - `<name>-<target-role>-<target-company>.html`: standalone visual and print-ready resume.
 - `<name>-<target-role>-<target-company>.pdf`: generated automatically when supported, or saved manually from HTML.
-- `岗位匹配与面试预审.md`: fit analysis, source mappings, invitation range, and eight interview questions.
+- `岗位匹配与邀约评估.md`: fit analysis, source mappings, and invitation range.
+- `面试模拟与反问.md`: interviewer-role inference, 8–12 role-specific questions, pressure follow-ups, opening preparation, risk radar, and targeted candidate questions.
 - `校验与待确认.md`: created only when failures, suggestions, or uncertain facts need attention.
 
 ## Repository layout
